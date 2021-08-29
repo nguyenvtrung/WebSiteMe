@@ -1,0 +1,25 @@
+  .header__logo {
+    position: fixed;
+    width: 100%;
+    transform: translateX(-5%);
+    z-index: -1;
+  }
+  .header__logo .logo::before
+  {
+    content: var(--domain1);
+    color: var(--color-logo-before);
+  }
+  .header__logo .logo::after
+  {
+    content: var(--domain3);
+    color: var(--color-logo-after);
+  }
+  .header__logo .logo {
+    position: absolute;
+    color: var(--color-logo);
+    right: 0;
+    top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+  }

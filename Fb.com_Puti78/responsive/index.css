@@ -1,0 +1,47 @@
+@media (min-width: 1024px)
+{
+    .form__DangNhap
+    {
+        width: 50vw;
+        min-height: 50vh;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 740px)
+{
+    .main__content--login a {
+        margin-right: 2.5vw ;
+      }
+      
+    .main__content--register a {
+        margin-left: 2.5vw ;
+    }
+
+    .form__DangNhap
+    {
+        width: 80vw;
+        min-height: 50vh;
+    }
+}
+
+@media (max-width: 740px) {
+  .main__content--login a,
+  .main__content--register a {
+    padding: 5vw 10vw;
+  }
+  .main__content--login a {
+    margin-right: 2.5vw;
+  }
+
+  .main__content--register a {
+    margin-left: 2.5vw;
+  }
+
+
+  .form__DangNhap
+  {
+      width: 80vw;
+      min-height: 50vh;
+  }
+}
+

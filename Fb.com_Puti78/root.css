@@ -1,0 +1,11 @@
+:root
+{
+    --domain: "NguyenVTrung";
+    --domain1: "Nguyen";
+    --domain2: "V";
+    --domain3: "Trung";
+
+    --color-logo-before: rgb(255, 255, 255);
+    --color-logo: rgb(0, 255, 255);
+    --color-logo-after: rgb(255, 255, 255);
+}
